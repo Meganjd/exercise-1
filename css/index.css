@@ -13,6 +13,63 @@ html {
 	text-size-adjust: 100%;
 }
 
+body  {
+  background-color: #3EAF76;
+}
+
+
+.main-content {
+  width: 500px;
+  height: 500px;
+}
+
+
+h1 {
+	color: #FFF;
+	font-family: 'Muli', sans-serif;
+	font-size: 60px;
+}
+
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+a:link {
+	text-decoration: none;
+}
+
+
+.button {
+	background-color: #2B7A53;
+	-moz-border-radius: 15px;
+  	-webkit-border-radius: 15px;
+  	border: none;
+  	padding: 8px;
+  	margin-right: 10px;
+}
+
+.icon-flower {
+	font-size: 50px;
+	color: #C8EBDA;
+
+}
+
+.icon-leaf {
+	font-size: 50px;
+	color: #C8EBDA;
+	
+}
+
+.ease-all {
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+
+
+
+
+
