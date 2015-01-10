@@ -39,13 +39,21 @@ a:link {
 }
 
 
-.button {
+.buttons {
 	background-color: #2B7A53;
 	-moz-border-radius: 15px;
   	-webkit-border-radius: 15px;
   	border: none;
   	padding: 8px;
   	margin-right: 10px;
+  	transition-property: background, border-radius;
+  	transition-duration: .2s, 1s;
+  	transition-timing-function: linear;
+}
+
+.buttons:hover {
+  background: #4DDB94;
+  border-radius: 50%;
 }
 
 .icon-flower {
@@ -58,14 +66,6 @@ a:link {
 	font-size: 50px;
 	color: #C8EBDA;
 	
-}
-
-.ease-all {
-	-webkit-transition: all 350ms ease-in-out;
-	-moz-transition: all 350ms ease-in-out;
-    -ms-transition: all 350ms ease-in-out;
-    -o-transition: all 350ms ease-in-out;
-	transition: all 350ms ease-in-out;
 }
 
 
